@@ -367,7 +367,7 @@
 }
 
 .u-section-3 .u-sheet-1 {
-  min-height: 1011px;
+  min-height: 946px;
 }
 
 .u-section-3 .u-text-1 {
@@ -501,7 +501,7 @@
   line-height: 1.2;
   font-weight: 700;
   font-family: "Roboto Condensed", sans-serif;
-  margin: 85px auto 60px;
+  margin: 67px auto 52px;
 }
 
 @media (max-width: 1199px) {
@@ -765,89 +765,125 @@
   }
 } .u-section-4 {
   background-image: none;
-}
-
-.u-section-4 .u-sheet-1 {
-  min-height: 806px;
+  min-height: 936px;
 }
 
 .u-section-4 .u-shape-1 {
   width: 592px;
   background-image: none;
   height: 746px;
-  margin: 13px auto 0 259px;
+  margin: 0 auto 0 calc(((100% - 1140px) / 2)  + 259px);
 }
 
 .u-section-4 .u-image-1 {
-  width: 1126px;
-  min-height: 702px;
-  background-image: url("images/BlackandWhiteSimpleComingSoonFacebookPost.png");
+  min-height: 708px;
   height: auto;
-  background-position: 50% 50%;
-  margin: -724px 7px 60px;
+  background-image: url("images/83d2a16ed.JPEG1.jpg");
+  margin-top: -727px;
+  margin-bottom: 0;
 }
 
 .u-section-4 .u-container-layout-1 {
-  padding: 30px;
+  padding: 16px;
+}
+
+.u-section-4 .u-btn-1 {
+  --radius: 7px;
+  background-image: none;
+  font-weight: 700;
+  text-decoration: underline !important;
+  margin: 42px auto 0 calc(((100% - 1140px) / 2)  + 89px);
+  padding: 38px 89px 38px 88px;
+}
+
+.u-section-4 .u-btn-2 {
+  --radius: 7px;
+  background-image: none;
+  font-weight: 700;
+  text-decoration: underline !important;
+  margin: -102px calc(((100% - 1140px) / 2)  + 86px) 60px auto;
+  padding: 38px 88px 39px 87px;
 }
 
 @media (max-width: 1199px) {
+  .u-section-4 .u-shape-1 {
+    margin-left: calc(((100% - 940px) / 2) + 259px);
+  }
+
   .u-section-4 .u-image-1 {
-    width: 940px;
-    margin-right: 0;
-    margin-left: 0;
+    background-position: 50% 50%;
     height: auto;
+  }
+
+  .u-section-4 .u-btn-1 {
+    border-style: solid;
+    margin-left: calc(((100% - 940px) / 2)  + 44px);
+  }
+
+  .u-section-4 .u-btn-2 {
+    border-style: solid;
+    margin-right: calc(((100% - 940px) / 2));
   }
 }
 
 @media (max-width: 991px) {
   .u-section-4 .u-shape-1 {
-    margin-left: auto;
+    margin-left: calc(((100% - 720px) / 2) + 128px);
   }
 
-  .u-section-4 .u-image-1 {
-    margin-right: initial;
-    margin-left: initial;
-    width: auto;
+  .u-section-4 .u-btn-1 {
+    margin-left: calc(((100% - 720px) / 2)  + 44px);
+  }
+
+  .u-section-4 .u-btn-2 {
+    margin-right: calc(((100% - 720px) / 2));
   }
 }
 
 @media (max-width: 767px) {
-  .u-section-4 .u-sheet-1 {
-    min-height: 752px;
-  }
-
   .u-section-4 .u-shape-1 {
     width: 540px;
+    margin-left: calc(((100% - 540px) / 2));
+  }
+
+  .u-section-4 .u-container-layout-1 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .u-section-4 .u-btn-1 {
+    margin-left: calc(((100% - 540px) / 2)  + 44px);
+  }
+
+  .u-section-4 .u-btn-2 {
+    margin-right: calc(((100% - 540px) / 2));
   }
 }
 
 @media (max-width: 575px) {
-  .u-section-4 .u-sheet-1 {
-    min-height: 539px;
-  }
-
   .u-section-4 .u-shape-1 {
-    height: 448px;
-    margin-top: 41px;
     margin-right: initial;
     margin-left: initial;
     width: auto;
   }
 
   .u-section-4 .u-image-1 {
-    min-height: 458px;
     margin-top: -458px;
-    margin-bottom: 50px;
-    width: auto;
-    margin-right: initial;
-    margin-left: initial;
   }
 
   .u-section-4 .u-container-layout-1 {
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 5px;
+  }
+
+  .u-section-4 .u-btn-1 {
+    margin-top: 3px;
+    margin-left: calc(((100% - 340px) / 2));
+  }
+
+  .u-section-4 .u-btn-2 {
+    margin-right: calc(((100% - 340px) / 2));
   }
 } .u-section-5 {
   background-image: url("images/top-view-frame-leaves-branches.jpg");

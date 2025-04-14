@@ -578,7 +578,21 @@
 .u-section-5 .u-btn-2 {
   --radius: 7px;
   background-image: none;
-  margin: -102px calc(((100% - 1140px) / 2)  + 96px) 0 auto;
+  margin: -100px auto 0 139px;
+  padding: 38px 89px 38px 88px;
+}
+
+.u-section-5 .u-btn-3 {
+  --radius: 7px;
+  background-image: none;
+  margin: -100px calc(((100% - 1140px) / 2)  + 96px) 0 auto;
+  padding: 38px 88px 39px 87px;
+}
+
+.u-section-5 .u-btn-4 {
+  --radius: 7px;
+  background-image: none;
+  margin: -101px auto 0 853px;
   padding: 38px 88px 39px 87px;
 }
 
@@ -590,7 +604,7 @@
 .u-section-5 .u-image-1 {
   min-height: 615px;
   margin-top: 201px;
-  margin-bottom: 57px;
+  margin-bottom: 60px;
   height: auto;
   background-image: url("images/d6e25f4b272f959bbc7e2c93265b2e752ec22851b6ecb0de7afcd2643d004d737b5f886fd6b067f52a3f973fb00c3d5195f7f731b55f0d7051a0a7_1280.jpg");
   background-position: 50% 50%;
@@ -624,8 +638,15 @@
   }
 
   .u-section-5 .u-btn-2 {
-    margin-top: -39px;
-    margin-right: calc(((100% - 940px) / 2)  + 157px);
+    margin-left: calc(((100% - 940px) / 2));
+  }
+
+  .u-section-5 .u-btn-3 {
+    margin-right: calc(((100% - 940px) / 2));
+  }
+
+  .u-section-5 .u-btn-4 {
+    margin-left: 653px;
   }
 
   .u-section-5 .u-text-1 {
@@ -635,7 +656,6 @@
 
   .u-section-5 .u-image-1 {
     margin-top: 89px;
-    margin-bottom: 60px;
     height: auto;
   }
 }
@@ -646,7 +666,16 @@
   }
 
   .u-section-5 .u-btn-2 {
+    margin-left: 0;
+  }
+
+  .u-section-5 .u-btn-3 {
     margin-right: calc(((100% - 720px) / 2));
+  }
+
+  .u-section-5 .u-btn-4 {
+    margin-right: calc(((100% - 720px) / 2));
+    margin-left: 433px;
   }
 
   .u-section-5 .u-text-1 {
@@ -660,7 +689,16 @@
   }
 
   .u-section-5 .u-btn-2 {
+    margin-left: calc(((100% - 540px) / 2));
+  }
+
+  .u-section-5 .u-btn-3 {
     margin-right: calc(((100% - 540px) / 2));
+  }
+
+  .u-section-5 .u-btn-4 {
+    margin-right: auto;
+    margin-left: 253px;
   }
 
   .u-section-5 .u-text-1 {
@@ -675,13 +713,19 @@
 
 @media (max-width: 575px) {
   .u-section-5 .u-btn-1 {
-    margin-top: -23px;
     margin-left: calc(((100% - 340px) / 2));
   }
 
   .u-section-5 .u-btn-2 {
-    margin-top: -189px;
+    margin-left: 69px;
+  }
+
+  .u-section-5 .u-btn-3 {
     margin-right: calc(((100% - 340px) / 2));
+  }
+
+  .u-section-5 .u-btn-4 {
+    margin-left: 122px;
   }
 
   .u-section-5 .u-text-1 {
