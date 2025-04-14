@@ -585,7 +585,7 @@
 
 @media (max-width: 991px) {
   .u-section-3 .u-sheet-1 {
-    min-height: 1612px;
+    min-height: 1555px;
   }
 
   .u-section-3 .u-text-1 {
@@ -658,7 +658,9 @@
   }
 
   .u-section-3 .u-text-5 {
-    margin: 56px auto 54px 22px;
+    margin-top: 105px;
+    margin-left: 62px;
+    margin-right: 62px;
   }
 }
 
@@ -761,7 +763,9 @@
 
   .u-section-3 .u-text-5 {
     font-size: 1.875rem;
-    margin: 26px auto 19px 10px;
+    margin-top: 61px;
+    margin-left: 21px;
+    margin-right: 21px;
   }
 } .u-section-4 {
   background-image: none;
@@ -828,19 +832,25 @@
 
 @media (max-width: 991px) {
   .u-section-4 .u-shape-1 {
-    margin-left: calc(((100% - 720px) / 2) + 128px);
+    margin-left: auto;
   }
 
   .u-section-4 .u-btn-1 {
-    margin-left: calc(((100% - 720px) / 2)  + 44px);
+    margin-top: 38px;
+    margin-left: calc(((100% - 720px) / 2));
   }
 
   .u-section-4 .u-btn-2 {
+    margin-top: -98px;
     margin-right: calc(((100% - 720px) / 2));
   }
 }
 
 @media (max-width: 767px) {
+   .u-section-4 {
+    min-height: 1003px;
+  }
+
   .u-section-4 .u-shape-1 {
     width: 540px;
     margin-left: calc(((100% - 540px) / 2));
@@ -852,23 +862,33 @@
   }
 
   .u-section-4 .u-btn-1 {
-    margin-left: calc(((100% - 540px) / 2)  + 44px);
+    margin-top: 31px;
+    margin-left: auto;
   }
 
   .u-section-4 .u-btn-2 {
-    margin-right: calc(((100% - 540px) / 2));
+    margin-top: 12px;
+    margin-right: auto;
+    margin-bottom: 36px;
   }
 }
 
 @media (max-width: 575px) {
+   .u-section-4 {
+    min-height: 983px;
+  }
+
   .u-section-4 .u-shape-1 {
+    height: 591px;
+    margin-top: 25px;
     margin-right: initial;
     margin-left: initial;
     width: auto;
   }
 
   .u-section-4 .u-image-1 {
-    margin-top: -458px;
+    margin-top: -617px;
+    min-height: 649px;
   }
 
   .u-section-4 .u-container-layout-1 {
@@ -878,12 +898,12 @@
   }
 
   .u-section-4 .u-btn-1 {
-    margin-top: 3px;
-    margin-left: calc(((100% - 340px) / 2));
+    margin-top: 17px;
   }
 
   .u-section-4 .u-btn-2 {
-    margin-right: calc(((100% - 340px) / 2));
+    margin-top: 49px;
+    margin-bottom: 60px;
   }
 } .u-section-5 {
   background-image: url("images/top-view-frame-leaves-branches.jpg");
